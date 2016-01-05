@@ -17,7 +17,9 @@ namespace BankAccountNS
 
         private BankAccount()
         {
-
+            m_customerName = "No_Name";
+            m_balance = 200;
+            m_frozen = false;
         }
 
         public BankAccount(string customerName, double balance)
