@@ -18,7 +18,7 @@ namespace BankAccountNS
         private BankAccount()
         {
             m_customerName = "No_Name";
-            m_balance = 1000;
+            m_balance = 100;
             m_frozen = false;
         }
 
